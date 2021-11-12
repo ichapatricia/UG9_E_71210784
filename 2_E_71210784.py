@@ -1,0 +1,5 @@
+print('No. 2')
+nama_depan, nama_belakang = input('Nama: ').split(' ', 1)
+tempat, tanggal = input('Tempat tanggal lahir : ').split(' ', 1)
+print('Halo! ' + nama_belakang + ', ' + nama_depan)
+print('Anda lahir di ' + tempat + ' pada tanggal ' + tanggal + '\n')
